@@ -1,0 +1,15 @@
+{
+  "modmenu.descriptionTranslation.inq_delayed": "Keeps Spore dormant until the infection is started by command.",
+  "commands.inq_delayed.status.dormant": "Spore infection is dormant.",
+  "commands.inq_delayed.status.active": "Spore infection is active.",
+  "commands.inq_delayed.start.already_active": "Spore infection is already active.",
+  "commands.inq_delayed.stop.already_dormant": "Spore infection is already dormant.",
+  "commands.inq_delayed.start.sober": "The Inquisition has begun.",
+  "commands.inq_delayed.stop.sober": "The Inquisition falls silent. The world breathes again.",
+  "commands.inq_delayed.start.dark_fantasy": "The Inquisition awakens.",
+  "commands.inq_delayed.stop.dark_fantasy": "The Inquisition recedes into silence. For now, the world is spared.",
+  "commands.inq_delayed.start.fragile_calm": "The infection awakens.",
+  "commands.inq_delayed.stop.fragile_calm": "The infection goes dormant. A fragile calm returns.",
+  "commands.inq_delayed.start.technical": "Inquisition Delayed: active state enabled.",
+  "commands.inq_delayed.stop.technical": "Inquisition Delayed: dormant state restored."
+}

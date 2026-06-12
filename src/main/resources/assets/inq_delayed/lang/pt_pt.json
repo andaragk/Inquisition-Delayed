@@ -1,0 +1,15 @@
+{
+  "modmenu.descriptionTranslation.inq_delayed": "Mantem Spore dormente ate a infeccao ser iniciada por comando.",
+  "commands.inq_delayed.status.dormant": "A infeccao Spore esta dormente.",
+  "commands.inq_delayed.status.active": "A infeccao Spore esta ativa.",
+  "commands.inq_delayed.start.already_active": "A infeccao Spore ja esta ativa.",
+  "commands.inq_delayed.stop.already_dormant": "A infeccao Spore ja esta dormente.",
+  "commands.inq_delayed.start.sober": "A Inquisicao comecou.",
+  "commands.inq_delayed.stop.sober": "A Inquisicao cala-se. O mundo volta a respirar.",
+  "commands.inq_delayed.start.dark_fantasy": "A Inquisicao desperta.",
+  "commands.inq_delayed.stop.dark_fantasy": "A Inquisicao recolhe-se ao silencio. Por agora, o mundo esta poupado.",
+  "commands.inq_delayed.start.fragile_calm": "A infeccao desperta.",
+  "commands.inq_delayed.stop.fragile_calm": "A infeccao volta a ficar dormente. Regressa uma calma fragil.",
+  "commands.inq_delayed.start.technical": "Inquisition Delayed: estado ativo ativado.",
+  "commands.inq_delayed.stop.technical": "Inquisition Delayed: estado dormente restaurado."
+}

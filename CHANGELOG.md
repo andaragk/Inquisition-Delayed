@@ -1,0 +1,19 @@
+# Changelog
+
+## 0.1.1 - 2026-06-13
+
+- Bumped the mod version after the post-test polish pass.
+- Added configurable start/stop message presets.
+- Added English, French, German, Spanish and Portuguese translations.
+- Moved public start/stop messages out of mcfunctions so they use the configured preset and client language.
+- Included README, changelog and license files in the jar.
+
+## 0.1.0 - 2026-06-12
+
+- Created the initial NeoForge 1.21.1 addon.
+- Added persistent world state with `dormant` as the default and `active` after `/inqdel start`.
+- Added `/inqdel start`, `/inqdel stop` and `/inqdel status`.
+- Added built-in functions `inqdel:start_inquisition`, `inqdel:stop_inquisition` and `inqdel:status`.
+- Added server-side spawn gating for Spore entities while dormant.
+- Added cleanup of already loaded gated Spore entities when stopping the infection.
+- Added the mod logo to the jar metadata.

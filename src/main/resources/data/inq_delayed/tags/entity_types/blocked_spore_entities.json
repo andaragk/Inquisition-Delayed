@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#spore:fungus_entities",
+      "required": false
+    }
+  ]
+}
