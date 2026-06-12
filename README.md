@@ -61,31 +61,15 @@ The mod creates a common config file:
 
 `config/inq_delayed-common.toml`
 
-Available option:
-
+Available option (for now):
 `messagePreset`
 
-Allowed values:
-
-- `sober`
-- `dark_fantasy`
-- `fragile_calm`
-- `technical`
-
-This controls the public start and stop messages sent by `/inqdel start` and `/inqdel stop`.
-
-Default:
-
-`sober`
+Allowed values:  `sober`,`dark_fantasy`,`fragile_calm`,`technical`
+(This controls the public start and stop messages sent by `/inqdel start` and `/inqdel stop`)
+Default: `sober`
 
 Bundled languages:
-
-- `en_us`
-- `fr_fr`
-- `de_de`
-- `es_es`
-- `pt_br`
-- `pt_pt`
+`en_us`, `fr_fr`, `de_de`, `es_es`, `pt_br`, `pt_pt`
 
 ## Internal Functions
 
