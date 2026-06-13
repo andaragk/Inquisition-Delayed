@@ -45,7 +45,7 @@ public final class InquisitionCommands {
     private static int start(CommandSourceStack source) {
         InfectionStateData data = InfectionStateData.get(source.getServer());
         boolean changed = data.setActive(true);
-        boolean functionRan = runFunction(source.getServer(), START_HOOK);
+        boolean functionRan = runFunction(source, START_HOOK);
 
         if (changed) {
             broadcastPresetMessage(source.getServer(), "start", ChatFormatting.DARK_RED, ChatFormatting.BOLD);
@@ -61,7 +61,7 @@ public final class InquisitionCommands {
         InfectionStateData data = InfectionStateData.get(source.getServer());
         boolean changed = data.setActive(false);
         int removed = removeActiveSporeEntities(source.getServer());
-        boolean functionRan = runFunction(source.getServer(), STOP_HOOK);
+        boolean functionRan = runFunction(source, STOP_HOOK);
 
         if (changed) {
             broadcastPresetMessage(source.getServer(), "stop", ChatFormatting.GRAY);
@@ -93,16 +93,17 @@ public final class InquisitionCommands {
         return removed;
     }
 
-    private static boolean runFunction(MinecraftServer server, ResourceLocation functionId) {
+    private static boolean runFunction(CommandSourceStack source, ResourceLocation functionId) {
+        MinecraftServer server = source.getServer();
         Optional<CommandFunction<CommandSourceStack>> function = server.getFunctions().get(functionId);
         if (function.isEmpty()) {
             return false;
         }
 
-        CommandSourceStack source = server.createCommandSourceStack()
+        CommandSourceStack functionSource = source
             .withPermission(2)
             .withSuppressedOutput();
-        server.getFunctions().execute(function.get(), source);
+        server.getFunctions().execute(function.get(), functionSource);
         return true;
     }
 }

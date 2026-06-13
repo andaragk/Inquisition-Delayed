@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-06-13
+
+- Fixed Inquisition hook execution so built-in functions keep the original command source position and dimension.
+- This allows relative-coordinate Inquisition functions such as the primordial mound startup to run from the player, command block or function source that triggered `/inqdel start`.
+
 ## 0.1.1 - 2026-06-13
 
 - Bumped the mod version after the post-test polish pass.

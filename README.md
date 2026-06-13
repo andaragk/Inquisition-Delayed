@@ -55,6 +55,8 @@ Use them from command blocks, FTB Quests, datapacks or other pack logic when a f
 
 The public start and stop functions call the mod command internally, so the persistent world state remains synchronized.
 
+When `/inqdel start` or `function inqdel:start_inquisition` runs, the internal Inquisition hook keeps the original command source position and dimension. This matters because Spore Inquisition uses relative coordinates for parts of its startup sequence.
+
 ## Config
 
 The mod creates a common config file:
