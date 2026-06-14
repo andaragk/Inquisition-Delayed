@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2.1 - 2026-06-14
+
+- Hotfixed config loading so Inquisition Delayed only reacts to its own NeoForge config events.
+- This makes startup more defensive in large modpacks where many configs are loaded during the same modloading phase.
+- Current available crash reports point to other mods, but this removes the only recent fragile startup path in Inquisition Delayed.
+
 ## 0.1.2 - 2026-06-13
 
 - Fixed Inquisition hook execution so built-in functions keep the original command source position and dimension.

@@ -34,6 +34,10 @@ public final class InquisitionDelayedConfig {
     }
 
     static void onLoad(ModConfigEvent event) {
+        if (event.getConfig().getSpec() != SPEC) {
+            return;
+        }
+
         messagePreset = MESSAGE_PRESET.get().toLowerCase(Locale.ROOT);
     }
 }
