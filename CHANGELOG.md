@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 - 2026-06-14
+
+- Fixed the NeoForge mod metadata packaging for the mixin registration.
+- Moved the mixin declaration after the main loader metadata so NeoForge correctly reads `loaderVersion`.
+- This fixes `inq_delayed-0.2.0.jar is not a valid mod file` / `Missing ModLoader version` during startup.
+
 ## 0.2.0 - 2026-06-14
 
 - Added a dormant function gate for Spore Inquisition's automatic datapack engine.

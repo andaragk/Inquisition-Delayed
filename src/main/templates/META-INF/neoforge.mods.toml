@@ -1,8 +1,4 @@
 modLoader = "javafml"
-
-[[mixins]]
-config = "inq_delayed.mixins.json"
-
 loaderVersion = "${loader_version_range}"
 license = "${mod_license}"
 
@@ -27,3 +23,6 @@ type = "required"
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "inq_delayed.mixins.json"
