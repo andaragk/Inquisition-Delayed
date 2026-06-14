@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.andaragk.inq_delayed.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SporeInquisitionFunctionGate"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

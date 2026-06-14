@@ -1,4 +1,8 @@
 modLoader = "javafml"
+
+[[mixins]]
+config = "inq_delayed.mixins.json"
+
 loaderVersion = "${loader_version_range}"
 license = "${mod_license}"
 

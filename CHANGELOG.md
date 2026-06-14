@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 - 2026-06-14
+
+- Added a dormant function gate for Spore Inquisition's automatic datapack engine.
+- While dormant, the mod now blocks the Inquisition load/tick/timer functions that would otherwise advance scoreboards, schedules, gamerules and startup state before `/inqdel start`.
+- The gate is intentionally limited to known automatic Inquisition functions instead of blocking every `inqui:*` function, keeping recipes, crafting helpers and progression utility functions available before activation.
+- Kept the delayed start compatible with console, command blocks and quest rewards: `/inqdel start` sets the state to active before running the Inquisition startup hook.
+
 ## 0.1.2.3 - 2026-06-14
 
 - Restored accented translations for French, German, Spanish and Portuguese.
