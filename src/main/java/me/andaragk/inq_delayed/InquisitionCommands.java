@@ -45,7 +45,7 @@ public final class InquisitionCommands {
     private static int start(CommandSourceStack source) {
         InfectionStateData data = InfectionStateData.get(source.getServer());
         boolean changed = data.setActive(true);
-        boolean functionRan = runFunction(source, START_HOOK);
+        boolean functionRan = changed && runFunction(source, START_HOOK);
 
         if (changed) {
             broadcastPresetMessage(source.getServer(), "start", ChatFormatting.DARK_RED, ChatFormatting.BOLD);

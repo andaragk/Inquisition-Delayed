@@ -1,6 +1,8 @@
 # Internal hook executed by /inqdel start after the persistent state is active.
 scoreboard objectives add inqdel_state dummy
 scoreboard players set !inquisition_delayed inqdel_state 1
+scoreboard objectives add capullo dummy "capullin start"
+scoreboard players set !capullo capullo 0
 function inqui:capullo
 function inqui:calamity
 function inqui:proto_count1

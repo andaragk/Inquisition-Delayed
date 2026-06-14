@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2.3 - 2026-06-14
+
+- Restored accented translations for French, German, Spanish and Portuguese.
+- Reset Spore Inquisition's `capullo` startup counter before the delayed start hook so the primordial age 10 mound and apostles can spawn after dormant startup.
+- Prevented `/inqdel start` from re-running the Inquisition start hook when the infection is already active.
+
 ## 0.1.2.2 - 2026-06-14
 
 - Fixed a NeoForge startup crash caused by the message preset config validator.

@@ -1,15 +1,15 @@
 {
-  "modmenu.descriptionTranslation.inq_delayed": "Garde Spore en dormance jusqu'au declenchement par commande.",
+  "modmenu.descriptionTranslation.inq_delayed": "Garde Spore en dormance jusqu'au déclenchement par commande.",
   "commands.inq_delayed.status.dormant": "L'infection Spore est dormante.",
   "commands.inq_delayed.status.active": "L'infection Spore est active.",
-  "commands.inq_delayed.start.already_active": "L'infection Spore est deja active.",
-  "commands.inq_delayed.stop.already_dormant": "L'infection Spore est deja dormante.",
-  "commands.inq_delayed.start.sober": "L'Inquisition a commence.",
-  "commands.inq_delayed.stop.sober": "L'Inquisition se tait. Le monde respire a nouveau.",
-  "commands.inq_delayed.start.dark_fantasy": "L'Inquisition s'eveille.",
-  "commands.inq_delayed.stop.dark_fantasy": "L'Inquisition se retire dans le silence. Pour l'instant, le monde est epargne.",
-  "commands.inq_delayed.start.fragile_calm": "L'infection s'eveille.",
+  "commands.inq_delayed.start.already_active": "L'infection Spore est déjà active.",
+  "commands.inq_delayed.stop.already_dormant": "L'infection Spore est déjà dormante.",
+  "commands.inq_delayed.start.sober": "L'Inquisition a commencé.",
+  "commands.inq_delayed.stop.sober": "L'Inquisition se tait. Le monde respire à nouveau.",
+  "commands.inq_delayed.start.dark_fantasy": "L'Inquisition s'éveille.",
+  "commands.inq_delayed.stop.dark_fantasy": "L'Inquisition se retire dans le silence. Pour l'instant, le monde est épargné.",
+  "commands.inq_delayed.start.fragile_calm": "L'infection s'éveille.",
   "commands.inq_delayed.stop.fragile_calm": "L'infection redevient dormante. Un calme fragile revient.",
-  "commands.inq_delayed.start.technical": "Inquisition Delayed : etat actif restaure.",
-  "commands.inq_delayed.stop.technical": "Inquisition Delayed : etat dormant restaure."
+  "commands.inq_delayed.start.technical": "Inquisition Delayed : état actif restauré.",
+  "commands.inq_delayed.stop.technical": "Inquisition Delayed : état dormant restauré."
 }
