@@ -20,7 +20,7 @@ public final class InquisitionDelayedConfig {
             "Message preset used for /inqdel start and /inqdel stop.",
             "Allowed values: sober, dark_fantasy, fragile_calm, technical."
         )
-        .defineInList("messagePreset", "sober", MESSAGE_PRESETS);
+        .define("messagePreset", "sober", InquisitionDelayedConfig::isValidMessagePreset);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 
@@ -31,6 +31,11 @@ public final class InquisitionDelayedConfig {
 
     public static String messagePreset() {
         return messagePreset;
+    }
+
+    private static boolean isValidMessagePreset(Object value) {
+        return value instanceof String preset
+            && MESSAGE_PRESETS.contains(preset.toLowerCase(Locale.ROOT));
     }
 
     static void onLoad(ModConfigEvent event) {

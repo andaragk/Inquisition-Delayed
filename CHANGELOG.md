@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2.2 - 2026-06-14
+
+- Fixed a NeoForge startup crash caused by the message preset config validator.
+- Replaced `defineInList` with a null-safe validator so config creation and correction cannot crash when NeoForge tests missing values.
+
 ## 0.1.2.1 - 2026-06-14
 
 - Hotfixed config loading so Inquisition Delayed only reacts to its own NeoForge config events.
